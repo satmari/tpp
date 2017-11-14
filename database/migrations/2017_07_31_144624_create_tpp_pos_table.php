@@ -15,7 +15,7 @@ class CreateTppPosTable extends Migration {
 		Schema::create('tpp_pos', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('po');
+			$table->string('po')->unique();
 			$table->timestamps();
 		});
 	}

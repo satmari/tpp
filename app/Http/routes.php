@@ -48,3 +48,7 @@ Route::post('po_update/{id}', 'Po_Controller@update');
 
 Route::get('marker_add', 'Marker_Controller@index');
 Route::post('marker_insert', 'Marker_Controller@marker_insert');
+
+Route::get('show_po', 'Marker_Controller@show_po');
+Route::get('show_markers_by_po/{po}', 'Marker_Controller@show_markers_by_po');
+Route::get('show_marker_details/{marker}', 'Marker_Controller@show_marker_details');

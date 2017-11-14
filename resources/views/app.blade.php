@@ -37,7 +37,8 @@
 					<li><a href="{{ url('c3/') }}">C3 table</a></li>
 					<li><a href="{{ url('c5/') }}">C5 table</a></li>
 					<li><a href="{{ url('po/') }}">TPP PO table</a></li>
-					<li><a href="{{ url('marker_add/') }}">Add TPP Marker</a></li>
+					<li><a href="{{ url('marker_add/') }}">Search by Marker</a></li>
+					<li><a href="{{ url('show_po/') }}">Search by TPP PO</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
